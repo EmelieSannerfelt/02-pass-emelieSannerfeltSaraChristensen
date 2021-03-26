@@ -4,26 +4,22 @@ public class BasicCalculator implements BasicCalculatorInterface {
 
 	@Override
 	public double addition(double firstNumber, double secondNumber) {
-		// TODO Auto-generated method stub
-		return 0;
+		return firstNumber + secondNumber;
 	}
 
 	@Override
 	public double subtraction(double firstNumber, double secondNumber) {
-		// TODO Auto-generated method stub
-		return 0;
+		return firstNumber - secondNumber;
 	}
 
 	@Override
 	public double multiplication(double firstNumber, double secondNumber) {
-		// TODO Auto-generated method stub
-		return 0;
+		return firstNumber * secondNumber;
 	}
 
 	@Override
 	public double division(double firstNumber, double secondNumber) {
-		// TODO Auto-generated method stub
-		return 0;
+		return firstNumber / secondNumber;
 	}
 
 }
