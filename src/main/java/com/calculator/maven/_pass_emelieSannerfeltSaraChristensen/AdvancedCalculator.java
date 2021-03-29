@@ -49,7 +49,7 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedCalcu
 	}
 
 	@Override
-	public double squareroot(double number) {
+	public double squareRoot(double number) {
 		return Math.sqrt(number);
 	}
 

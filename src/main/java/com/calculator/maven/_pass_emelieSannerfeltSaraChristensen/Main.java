@@ -18,7 +18,7 @@ public class Main {
 		
 		System.out.println(advancedCalculator.cube(10));//ett tal gånger 3
 		
-		System.out.println(advancedCalculator.squareroot(Math.sqrt(9)));
+		System.out.println(advancedCalculator.squareRoot(Math.sqrt(9)));
 		
 		System.out.println(advancedCalculator.absoluteValue(Math.abs(-3)));
 		
