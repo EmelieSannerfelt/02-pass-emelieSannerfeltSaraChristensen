@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest
-test(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)  Time elapsed: 0.01 s  <<< FAILURE!
-java.lang.AssertionError: Not yet implemented
-	at com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest.test(AdvancedCalculatorTest.java:11)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest
