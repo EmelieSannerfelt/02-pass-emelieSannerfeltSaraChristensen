@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="198" started-at="2021-04-01T08:47:38Z" finished-at="2021-04-01T08:47:38Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="198" started-at="2021-04-01T08:47:38Z" finished-at="2021-04-01T08:47:38Z">
+      <class name="com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest">
+        <test-method status="PASS" signature="testMultiplicationZero()[pri:0, instance:testMultiplicationZero(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testMultiplicationZero" duration-ms="7" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationZero -->
+        <test-method status="PASS" signature="testAdditionPositive()[pri:0, instance:testAdditionPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testAdditionPositive" duration-ms="8" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionPositive -->
+        <test-method status="PASS" signature="testAdditionNegative()[pri:0, instance:testAdditionNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testAdditionNegative" duration-ms="4" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionNegative -->
+        <test-method status="PASS" signature="testDivisionZero()[pri:0, instance:testDivisionZero(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testDivisionZero" duration-ms="0" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionZero -->
+        <test-method status="PASS" signature="testMultiplicationPositive()[pri:0, instance:testMultiplicationPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testMultiplicationPositive" duration-ms="4" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationPositive -->
+        <test-method status="PASS" signature="testDivisionPositive()[pri:0, instance:testDivisionPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testDivisionPositive" duration-ms="3" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionPositive -->
+        <test-method status="PASS" signature="testMultiplicationNegative()[pri:0, instance:testMultiplicationNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testMultiplicationNegative" duration-ms="3" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationNegative -->
+        <test-method status="PASS" signature="testDivisionNegative()[pri:0, instance:testDivisionNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testDivisionNegative" duration-ms="3" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionNegative -->
+        <test-method status="PASS" signature="testSubtractionPositive()[pri:0, instance:testSubtractionPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testSubtractionPositive" duration-ms="3" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionPositive -->
+        <test-method status="PASS" signature="testSubtractionZero()[pri:0, instance:testSubtractionZero(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testSubtractionZero" duration-ms="0" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionZero -->
+        <test-method status="PASS" signature="testAdditionZero()[pri:0, instance:testAdditionZero(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testAdditionZero" duration-ms="0" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionZero -->
+        <test-method status="PASS" signature="testSubtractionNegative()[pri:0, instance:testSubtractionNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)]" name="testSubtractionNegative" duration-ms="3" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionNegative -->
+      </class> <!-- com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest -->
+      <class name="com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest">
+        <test-method status="PASS" signature="testCubeNegative()[pri:0, instance:testCubeNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)]" name="testCubeNegative" duration-ms="3" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCubeNegative -->
+        <test-method status="PASS" signature="testSquareRootPositive()[pri:0, instance:testSquareRootPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)]" name="testSquareRootPositive" duration-ms="3" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRootPositive -->
+        <test-method status="PASS" signature="testraisedToThePowerOfPositive()[pri:0, instance:testraisedToThePowerOfPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)]" name="testraisedToThePowerOfPositive" duration-ms="3" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testraisedToThePowerOfPositive -->
+        <test-method status="PASS" signature="testSquarePositive()[pri:0, instance:testSquarePositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)]" name="testSquarePositive" duration-ms="2" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquarePositive -->
+        <test-method status="PASS" signature="testSquareNegative()[pri:0, instance:testSquareNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)]" name="testSquareNegative" duration-ms="2" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareNegative -->
+        <test-method status="PASS" signature="testAbsoluteValuePositive()[pri:0, instance:testAbsoluteValuePositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)]" name="testAbsoluteValuePositive" duration-ms="3" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAbsoluteValuePositive -->
+        <test-method status="PASS" signature="testCubePositive()[pri:0, instance:testCubePositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)]" name="testCubePositive" duration-ms="3" started-at="2021-04-01T10:47:38Z" finished-at="2021-04-01T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCubePositive -->
+      </class> <!-- com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

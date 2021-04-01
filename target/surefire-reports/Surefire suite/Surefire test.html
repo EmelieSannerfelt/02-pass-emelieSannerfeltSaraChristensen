@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 01 10:47:38 CEST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (198 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest.testAbsoluteValuePositive()'><b>testAbsoluteValuePositive</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAbsoluteValuePositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testAdditionNegative()'><b>testAdditionNegative</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testAdditionPositive()'><b>testAdditionPositive</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testAdditionZero()'><b>testAdditionZero</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionZero(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest.testCubeNegative()'><b>testCubeNegative</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testCubeNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest.testCubePositive()'><b>testCubePositive</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testCubePositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testDivisionNegative()'><b>testDivisionNegative</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testDivisionPositive()'><b>testDivisionPositive</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testDivisionZero()'><b>testDivisionZero</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionZero(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testMultiplicationNegative()'><b>testMultiplicationNegative</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testMultiplicationPositive()'><b>testMultiplicationPositive</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testMultiplicationZero()'><b>testMultiplicationZero</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationZero(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest.testSquareNegative()'><b>testSquareNegative</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest.testSquarePositive()'><b>testSquarePositive</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSquarePositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest.testSquareRootPositive()'><b>testSquareRootPositive</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareRootPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testSubtractionNegative()'><b>testSubtractionNegative</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionNegative(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testSubtractionPositive()'><b>testSubtractionPositive</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest.testSubtractionZero()'><b>testSubtractionZero</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionZero(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.BasicCalculatorTest)</td></tr>
+<tr>
+<td title='com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest.testraisedToThePowerOfPositive()'><b>testraisedToThePowerOfPositive</b><br>Test class: com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest</td>
+<td></td>
+<td>0</td>
+<td>testraisedToThePowerOfPositive(com.calculator.maven._pass_emelieSannerfeltSaraChristensen.AdvancedCalculatorTest)</td></tr>
+</table><p>
+</body>
+</html>

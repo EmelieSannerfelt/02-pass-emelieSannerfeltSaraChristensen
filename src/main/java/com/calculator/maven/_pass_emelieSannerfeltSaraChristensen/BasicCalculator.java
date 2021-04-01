@@ -25,7 +25,7 @@ public class BasicCalculator implements BasicCalculatorInterface {
 			System.out.println("Division by zero?");
 			return -0.123456789;
 		} else {
-			return result;// Är detta rätt?
+			return result;
 		}
 	}
 }

@@ -16,7 +16,7 @@ public class Main {
 		AdvancedCalculator advancedCalculator = new AdvancedCalculator();
 		System.out.println(advancedCalculator.square(10.0));
 
-		System.out.println(advancedCalculator.cube(10));// ett tal gånger 3
+		System.out.println(advancedCalculator.cube(10));
 
 		System.out.println(advancedCalculator.squareRoot(Math.sqrt(9)));
 
