@@ -70,7 +70,7 @@ public class AdvancedCalculatorTest {
 		double tempResult = 0;
 		for (int i = 0; i < 5; i++) {
 			tempRandomValue1 = random.nextDouble();
-			tempResult = tempRandomValue1;
+			tempResult = Math.sqrt(tempRandomValue1);
 			LOG.info("Testing the method add with: " + tempRandomValue1);
 			assertEquals(advancedCalculator.squareRoot(tempRandomValue1), tempResult, 0);
 		}
@@ -94,13 +94,15 @@ public class AdvancedCalculatorTest {
 
 	@Test
 	public void testraisedToThePowerOfPositive() {
-		int tempRandomValue1 = 0;
-		int tempResult = 0;
+		double tempRandomValue1 = 0;
+		double tempRandomValue2 = 0;
+		double tempResult = 0;
 		for (int i = 0; i < 5; i++) {
 			tempRandomValue1 = random.nextInt();
-			tempResult = tempRandomValue1;
+			tempRandomValue2 = random.nextInt();
+			tempResult = Math.pow (tempRandomValue1, tempRandomValue2);
 			LOG.info("Testing the method add with: " + tempRandomValue1);
-			assertEquals(advancedCalculator.raisedToThePowerOf(tempRandomValue1), tempResult, 0);
+			assertEquals(advancedCalculator.raisedToThePowerOf(tempRandomValue1, tempRandomValue2), tempResult, 0);
 		}
 	}
 }
