@@ -100,7 +100,7 @@ public class AdvancedCalculatorTest {
 		for (int i = 0; i < 5; i++) {
 			tempRandomValue1 = random.nextInt();
 			tempRandomValue2 = random.nextInt();
-			tempResult = Math.pow (tempRandomValue1, tempRandomValue2);
+			tempResult = Math.pow(tempRandomValue1, tempRandomValue2);
 			LOG.info("Testing the method add with: " + tempRandomValue1);
 			assertEquals(advancedCalculator.raisedToThePowerOf(tempRandomValue1, tempRandomValue2), tempResult, 0);
 		}

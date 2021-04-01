@@ -2,7 +2,6 @@ package com.calculator.maven._pass_emelieSannerfeltSaraChristensen;
 
 public class BasicCalculator implements BasicCalculatorInterface {
 
-
 	@Override
 	public double addition(double firstNumber, double secondNumber) {
 		return firstNumber + secondNumber;
